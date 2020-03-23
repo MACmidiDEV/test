@@ -1,0 +1,491 @@
+.bg-gradient-primary {
+    /* background-color: #4e73df; */
+    /* background-image: url("img/undraw_posting_photo.svg"); */
+    /* background-image: url("../img/bg1.jpg"); */
+    /* background-position: center; */
+    /* background-image: linear-gradient(0.33turn, #761381 10.08%, #c22e1e); */
+}
+
+.midi {
+    background-color: #761381;
+    height: fit-content;
+    width: fit-content;
+}
+
+#midiNav {
+    background-image: url("../img/bg1.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.bg-gradient-primary {
+    /* background-color: #4e73df; */
+    /* background-image: url("img/undraw_posting_photo.svg"); */
+    background-image: url("../img/bg11v.jpg");
+    background-image: url("../img/mapBG1.png");
+    background-image: url("../img/map2.jpg");
+    background-image: url("../img/map3.jpg");
+    background-image: url("../img/map1.jpg");
+    background-image: url("../img/mapLogoX.png");
+    background-image: url("../img/mapX.png");
+    background-image: url("../img/nasa.jpg");
+    background-position: center;
+    background-size: 100%;
+    background-size: cover;
+    background-origin: border-box;
+    /* background-image: repeating-linear-gradient(rgba(93, 21, 181, 0.93) 8.39%, #af3136 89.92%); */
+    overflow: hidden;
+}
+
+#placeholder {
+    color: chartreuse;
+}
+
+/* .resFix {
+    height: 150px;
+} */
+
+/* tr>td:hover {
+    padding-left: 10%;
+    background-color: #d0d0d059;
+    border-radius: 30em;
+} */
+
+.placeIcon {
+    float: right;
+    width: inherit;
+}
+
+.placeIcon:hover {
+    float: left;
+    background-color: none;
+}
+
+
+
+
+/* // Extra small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+@media (min-width: 374px) {
+
+    #locationField {
+        /* display: none; */
+
+        box-shadow: 10px 10px 10px #ffffff93;
+        margin-top: 2px;
+
+    }
+
+    #results {
+        height: 50px;
+        font-size: 20px;
+        /* padding-bottom: 100px; */
+        /* margin-bottom:100px ; */
+
+        /* overflow: hidden; */
+        /*  */
+    }
+
+    select {
+        font-size: small;
+        z-index: 1;
+    }
+
+    #country {
+        height: 28px;
+        color: rgb(255, 255, 255);
+        background-color: rgba(0, 0, 0, 0.164);
+        font-size: 14px;
+        border: 3px solid rgba(255, 255, 255, 0.164);
+        border-radius: .5em;
+        float: right;
+        margin-right: -10px;
+
+    }
+
+    #listing {
+        height: 24%;
+        top: 136px;
+    }
+
+    #controls {
+        /* height: 0%; */
+        /* margin-top: -280px; */
+    }
+
+    #autocomplete {
+        color: rgb(255, 255, 255);
+        background-color: rgba(0, 0, 0, 0.164);
+        /* margin-top: 15px; */
+        width: 100%;
+        font-size: 12px;
+        border: 3px solid rgba(255, 255, 255, 0.164);
+        border-radius: .5em;
+        /* display: none; */
+        /* width: 100%; */
+        /* background-color: rgba(255, 255, 255, 0.199); */
+    }
+
+    #locationField {
+        /* display: none; */
+    }
+
+}
+
+
+@mediaX (max-width: 575px) {
+    .sidebar .sidebar-brand {
+        /* height: 30px; */
+        letter-spacing: 3.5em;
+    }
+
+    #results {
+        /* height: 200px; */
+        /* font-size: 16px; */
+    }
+
+    select {
+        font-size: small;
+        height: 40px;
+    }
+
+    #country {
+        height: 12px;
+        width: 100%;
+
+    }
+
+    #locationField {
+        /* margin-top: 300px; */
+    }
+
+    #listing {
+        /* height: 300px; */
+        top: 130px;
+        top: 145px;
+    }
+
+    .placeIcon {
+        width: 30px;
+        height: 32px;
+        margin: 2px;
+    }
+
+    #controls {
+        float: right;
+        width: 100%;
+        height: 0;
+        margin-top: 10px;
+    }
+
+    #country {
+        width: 80%;
+        margin-bottom: 0;
+        float: right;
+        height: 18px;
+    }
+
+    #autocomplete {
+        color: black;
+        margin-top: 5px;
+        margin-bottom: -20px;
+        margin-left: -5px;
+        font-size: 18px;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.199);
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@mediaX (min-width: 576px) {
+
+    .sidebar,
+    .sidebar-brand {
+        height: 1em;
+    }
+
+    #results {
+        font-size: 18px;
+    }
+
+    #locationField {
+        /* margin-top: 220px; */
+    }
+
+    #listing {
+        height: 275px;
+        height: 420px;
+        top: 75px;
+    }
+
+    .placeIcon {
+        width: 30px;
+        height: 32px;
+        margin: 2px;
+    }
+
+    #controls {
+        float: right;
+        width: 100%;
+        height: 0;
+        /* margin-top: 10px; */
+    }
+
+    #country {
+        width: 100%;
+        margin-bottom: 0;
+        margin-left: 15px;
+        height: 22px;
+    }
+
+    #autocomplete {
+        color: black;
+        /* margin-top: 7px; */
+        font-size: 22px;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.199);
+    }
+
+}
+
+#info-content {
+    overflow: -webkit-paged-y !important;
+    height: 0px;
+}
+
+
+
+/* // Medium devices (tablets, 768px and up) */
+@mediaX (min-width: 768px) {
+
+    .sidebar,
+    .sidebar-brand {
+        height: 2em;
+    }
+
+    #results {
+        font-size: 18px;
+    }
+
+    #locationField {
+        /* margin-top: 130px; */
+    }
+
+    #listing {
+        height: 200px;
+        top: 75px;
+    }
+
+    .placeIcon {
+        width: 30px;
+        height: 32px;
+        margin: 2px;
+    }
+
+    #controls {
+        float: right;
+        width: 100%;
+        height: 0;
+        /* margin-top: 50px; */
+    }
+
+    #country {
+        width: 100%;
+        margin-bottom: 0;
+        margin-left: 5%;
+        height: 22px;
+    }
+
+    #autocomplete {
+        color: black;
+        margin-top: -200px;
+        font-size: 26px;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.199);
+        border: 1px solid rgba(255, 255, 255, 0.381);
+        border-radius: .3em;
+    }
+
+}
+
+/* https://css-tricks.com/snippets/css/media-queries-for-standard-devices/ <- iphoneMediaquery{source} */
+/* Portrait and Landscape */
+@mediaX only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+    #locationField {
+        /* margin-top: 295px;         */
+    }
+
+    #listing {
+        /* top: 350px; */
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@mediaX (min-width: 992px) {
+    #results {
+        font-size: 20px;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@mediaX (min-width: 1200px) {
+    #results {
+        font-size: 28px;
+    }
+}
+
+@mediaX (min-width: 4800px) {
+    #results {
+        font-size: 112px;
+    }
+
+    #sidebar-brand-country {
+        background-color: black;
+        font-size: 1.5em;
+        background-attachment: fixed;
+    }
+
+    /* #iLogo{
+        height: 180px;
+        font-size: 1em;
+    } */
+    #listing {
+        top: 350px;
+    }
+
+    #autocomplete {
+        width: 100%;
+        color: rgb(255, 255, 255);
+        font-size: 14em;
+        /* background-color: rgba(255, 255, 255, 0.215); */
+        background-color: rgba(0, 0, 0, 0.452);
+        /* margin-top: -100%; */
+    }
+
+    #resultsTable {
+        /* margin-left: 1%; */
+        /* left: 100%; */
+        /* border-collapse: collapse; */
+        background-color: rgba(170, 153, 211, 0.763);
+        /* opacity: 0.8; */
+        color: white;
+        /* opacity: 0.8; */
+        /* width: 240px; */
+        /* margin-left: 80%; */
+        width: 100%;
+        /* height: 10%; */
+        font-size: large;
+    }
+
+    #country {
+        color: rgba(0, 0, 0, 0.763);
+        margin-top: 200px;
+        /* margin-bottom: -13px; */
+        width: 50%;
+        border: none;
+    }
+
+    #controls {
+        -webkit-box-flex: 1 1 140px;
+        -ms-flex: 1 1 140px;
+        flex: 1 1 140px;
+        /* top: 1500px; */
+    }
+
+}
+
+
+@media (min-height: 567px) {
+
+    #locationField {
+        /* display: none; */
+        margin-top: 2px;
+        height: 50%;
+    }
+
+    #results {
+        height: 25%;
+        font-size: 20px;
+        /* padding-bottom: 100px; */
+        /* margin-bottom:100px ; */
+
+        /* overflow: hidden; */
+        /* display: none; */
+    }
+
+    #resultsTable {
+        /* margin-left: 1%; */
+        /* left: 100%; */
+        /* border-collapse: collapse; */
+        /* background-color: rgba(170, 153, 211, 0.763); */
+        /* opacity: 0.8; */
+        color: white;
+        /* opacity: 0.8; */
+        /* width: 240px; */
+        /* margin-left: 80%; */
+        width: 100%;
+        /* height: 10%; */
+        font-size: 12px;
+    }
+
+    select {
+        font-size: small;
+    }
+
+    #country {
+        color: rgb(255, 255, 255);
+        background-color: rgba(0, 0, 0, 0.164);
+        font-size: 18px;
+        border: 3px solid rgba(255, 255, 255, 0.164);
+        border-radius: .5em;
+        float: right;
+        margin-right: -10px;
+        width: 100%;
+        text-align: right;
+    }
+
+    #listing {
+        height: 33%;
+    }
+
+    #controls {
+        /* height: 0%; */
+        /* margin-top: -280px; */
+    }
+
+    /* #autocompleteX {
+        color: rgba(255, 255, 255, 0);
+        background-color: rgba(0, 0, 0, 0.459);
+        margin-left: -78px;
+        width: 120%;
+        font-size: 16px;
+        border: 3px solid rgba(0, 0, 0, 0.075);
+        border-radius: .5em;
+    
+        
+    } */
+
+    #autocomplete {
+        color: rgb(255, 255, 255);
+        background-color: rgba(0, 0, 0, 0.164);
+        margin-top: 2px;
+        width: 100%;
+        font-size: 16px;
+        border: 3px solid rgba(255, 255, 255, 0.164);
+        border-radius: .5em;
+        /* display: none; */
+        /* width: 100%; */
+        /* background-color: rgba(255, 255, 255, 0.199); */
+    }
+
+    #locationField {
+        /* display: none; */
+    }
+
+    #info-content {
+        overflow: -webkit-paged-y !important;
+        height: 0px;
+        /* display: none; */
+    }
+
+}
