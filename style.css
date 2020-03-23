@@ -2,7 +2,7 @@
 /* Always set the map height explicitly to define the size of the div
  * element that contains the map. */
 #hotelSearchMap{
-  height: 45%;
+  height: 50%;
   width: 60%;
 }
 #map {
@@ -98,20 +98,23 @@ html, body {
     
   }
   #controls {
-   
+  position: right;
+  
   }
   #autocomplete {
-    width: 100%;
+    margin-left: 15px;
+    width: auto;
     color: black;
     font-size: 32px;
     background-color: rgba(170, 153, 211, 0.763);
   }
   #country {
-    /* margin-left: 15px; */
-    width: 30%;
+    margin-left: 30%;
+    width: 100%;
     -webkit-box-flex: 1 1 140px;
     -ms-flex: 1 1 140px;
     flex: 1 1 140px;
+    display: right;
   }
   .placeIcon {
     width: 40px;
@@ -165,6 +168,7 @@ html, body {
     /* bottom: 0%; */
     /* margin-top: 2%; */
     top: 162.5px;
+    /* right: 100%; */
     cursor: pointer;
     overflow-x: visible;
     border-left: hidden;

@@ -65,6 +65,22 @@
 
     </ul>
     <!-- <form class="form-inline my-2 my-lg-0"> -->
+      <select id="country">
+        <option value="all">All</option>
+        <option value="au">Australia</option>
+        <option value="br">Brazil</option>
+        <option value="ca">Canada</option>
+        <option value="fr">France</option>
+        <option value="de">Germany</option>
+        <option value="mx">Mexico</option>
+        <option value="nz">New Zealand</option>
+        <option value="it">Italy</option>
+        <option value="za">South Africa</option>
+        <option value="es">Spain</option>
+        <option value="pt">Portugal</option>
+        <option value="us" selected>U.S.A.</option>
+        <option value="uk">United Kingdom</option>
+      </select>
     <input class="form-contrl mr-sm-2" id="autocomplete" type="text" placeholder="Search" aria-label="Search">
     <!-- <input id="autocomplete" placeholder="Search and get away!" type="text" /> -->
     <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
@@ -73,31 +89,17 @@
   </nav>
 
 
+  <div id="hotelSearchMap"></div>
   <div class="container-fluid">
     <div class="row">
       <div class="col">
 
 
-        <div id="controls">
-          <select id="country">
-            <option value="all">All</option>
-            <option value="au">Australia</option>
-            <option value="br">Brazil</option>
-            <option value="ca">Canada</option>
-            <option value="fr">France</option>
-            <option value="de">Germany</option>
-            <option value="mx">Mexico</option>
-            <option value="nz">New Zealand</option>
-            <option value="it">Italy</option>
-            <option value="za">South Africa</option>
-            <option value="es">Spain</option>
-            <option value="pt">Portugal</option>
-            <option value="us" selected>U.S.A.</option>
-            <option value="uk">United Kingdom</option>
-          </select>
-        </div>
+
 
       </div>
+      <!-- <div class="row"> -->
+      <!-- </div> -->
 
       <div class="hotel-search">
         <div id="findhotels">
@@ -134,7 +136,7 @@
   </div>
 
 
-  <div id="hotelSearchMap"></div>
+  <!-- <div id="hotelSearchMap"></div> -->
   <div id="map"></div>
   <div id="pano"></div>
 
