@@ -156,10 +156,11 @@ function initMap() {
     mapTypeId: 'hybrid',
     // zoom: countries['us'].zoom,
     // center: countries['us'].center,
-    mapTypeControl: false,
-    // panControl: false,
-    // zoomControl: false,
+    mapTypeControlpeControl: false,
+    panControl: false,
+    zoomControl: false,
     // streetViewControl: false
+  
   });
 
   panorama = new google.maps.StreetViewPanorama(document.getElementById('pano'));
